@@ -597,6 +597,7 @@ section.clients-logos-section .slick-dots .slick-active {
     background-color: #e9592f;
 }
 
+/* Clients Logo Section END */
 /* Our Latest Project Section START */
 section.our-latest-project-section {
     background-color: #fff;
@@ -668,18 +669,18 @@ section.our-latest-project-section .img-block:hover .button-block a.btn {
 
 /* Flooring and  marble Section START */
 
-section.flooring-marble-section{
+section.flooring-marble-section {
     background-color: #fcfbfb;
     padding: 80px 0;
     margin: 0;
 }
 
-section.flooring-marble-section .frequently-asked-questions-block{
+section.flooring-marble-section .frequently-asked-questions-block {
     padding: 0;
     margin: 0;
 }
 
-section.flooring-marble-section .frequently-asked-questions-block p{
+section.flooring-marble-section .frequently-asked-questions-block p {
     font-family: inherit;
     font-size: 20px;
     color: 060606;
@@ -687,7 +688,7 @@ section.flooring-marble-section .frequently-asked-questions-block p{
     line-height: 1.3;
 }
 
-section.flooring-marble-section .frequently-asked-questions-block h2{
+section.flooring-marble-section .frequently-asked-questions-block h2 {
     font-family: 'Teko', sans-serif;
     font-size: 60px;
     color: #090909;
@@ -697,12 +698,12 @@ section.flooring-marble-section .frequently-asked-questions-block h2{
     margin-bottom: 30px;
 }
 
-section.flooring-marble-section .frequently-asked-questions-block .accordion-block{
-  padding: 0;
-  margin: 0;  
+section.flooring-marble-section .frequently-asked-questions-block .accordion-block {
+    padding: 0;
+    margin: 0;
 }
 
-section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-item{
+section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-item {
     background-color: #fff;
     box-shadow: 0px 2px 65px 0px rgba(0, 0, 0, 0.03);
     padding: 0;
@@ -710,24 +711,25 @@ section.flooring-marble-section .frequently-asked-questions-block .accordion-blo
     border: none;
 }
 
-section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-button::after{
+section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-button::after {
     background-image: url("../images/plus-icon.svg");
 }
-section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-button:not(.collapsed)::after{
-     background-image: url("../images/minus-icon.svg");
+
+section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-button:not(.collapsed)::after {
+    background-image: url("../images/minus-icon.svg");
 }
 
-section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-item .accordion-button{
+section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-item .accordion-button {
     font-family: inherit;
     font-size: 18px;
     color: #060606;
     font-weight: 500;
     line-height: 1.3;
-    background-color: #fff; 
+    background-color: #fff;
     padding: 20px 30px;
 }
 
-section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-body{
+section.flooring-marble-section .frequently-asked-questions-block .accordion-block .accordion-body {
     font-family: inherit;
     font-size: 16px;
     color: #060606;
@@ -736,13 +738,13 @@ section.flooring-marble-section .frequently-asked-questions-block .accordion-blo
     padding: 30px 30px;
 }
 
-section.flooring-marble-section .get-a-free-quote-block{
+section.flooring-marble-section .get-a-free-quote-block {
     background-color: #fff;
     padding: 62px 30px;
     margin: 0;
 }
 
-section.flooring-marble-section .get-a-free-quote-block p{
+section.flooring-marble-section .get-a-free-quote-block p {
     font-family: inherit;
     font-size: 20px;
     color: 060606;
@@ -751,7 +753,7 @@ section.flooring-marble-section .get-a-free-quote-block p{
     text-align: center;
 }
 
-section.flooring-marble-section .get-a-free-quote-block h2{
+section.flooring-marble-section .get-a-free-quote-block h2 {
     font-family: 'Teko', sans-serif;
     font-size: 60px;
     color: #090909;
@@ -762,19 +764,20 @@ section.flooring-marble-section .get-a-free-quote-block h2{
     margin-bottom: 30px;
 }
 
-section.flooring-marble-section .get-a-free-quote-block .form-control{
+section.flooring-marble-section .get-a-free-quote-block .form-control {
     font-family: inherit;
     font-size: 16px;
     color: #060606;
     line-height: 1.1;
-    font-weight: 400; 
+    font-weight: 400;
     border: 1px solid transparent;
     background-color: #f7f6f6;
     padding: 20px 30px;
     margin-bottom: 30px;
     transition: 0.3s;
 }
-section.flooring-marble-section .get-a-free-quote-block .form-control::placeholder{
+
+section.flooring-marble-section .get-a-free-quote-block .form-control::placeholder {
     font-family: inherit;
     font-size: 16px;
     color: #969494;
@@ -782,7 +785,7 @@ section.flooring-marble-section .get-a-free-quote-block .form-control::placehold
     font-weight: 400;
 }
 
-section.flooring-marble-section .get-a-free-quote-block .form-control:focus{
+section.flooring-marble-section .get-a-free-quote-block .form-control:focus {
     border: 1px solid #000;
     box-shadow: none;
 }
@@ -792,42 +795,231 @@ section.flooring-marble-section .get-a-free-quote-block textarea.form-control {
     resize: none;
 }
 
-section.flooring-marble-section .get-a-free-quote-block input.btn{
+section.flooring-marble-section .get-a-free-quote-block input.btn {
     font-family: inherit;
     font-size: 16px;
     color: #fff;
     line-height: 1.1;
-    font-weight: 500; 
+    font-weight: 500;
     background-color: #000000;
     border-radius: 5px;
     padding: 15px;
 }
+
 /* Flooring and  marble Section END */
+/* Our Our Clients Section START */
+section.our-clients-section {
+    background-color: #fff;
+    padding: 80px 0;
+    margin: 0;
+}
+
+section.our-clients-section .tesimonials-block {
+    position: relative;
+    width: 60%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+section.our-clients-section .tesimonials-block .testimonials-card {
+    position: relative;
+    border-radius: 5px;
+    background-color: aqua;
+    padding: 50px;
+}
+
+section.our-clients-section .tesimonials-block .testimonial-card {
+    width: 90%;
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 50px 150px 50px 50px;
+    margin: 0;
+    box-shadow: 0px 15px 62px 0px rgba(0, 0, 0, 0.1);
+}
+
+section.our-clients-section .tesimonials-block .testimonial-card .quote-icon {
+    position: absolute;
+    top: -32px;
+    left: 50px;
+    font-size: 50px;
+}
+
+section.our-clients-section .tesimonials-block .testimonial-card p {
+    font-family: inherit;
+    font-size: 14px;
+    color: #060606;
+    line-height: 1.5;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+section.our-clients-section .tesimonials-block .testimonial-card .stars-block {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+section.our-clients-section .tesimonials-block .testimonial-profile-block {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.1);
+}
+
+section.our-clients-section .tesimonials-block .testimonial-profile-block .profile-img-block {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
 
 
+section.our-clients-section .tesimonials-block .testimonial-profile-block .profile-img-block img {
+    overflow: hidden;
 
+}
 
+section.our-clients-section .tesimonials-block .testimonial-profile-block .profile-name-block {
+    padding: 10px 0;
+}
 
+section.our-clients-section .tesimonials-block .testimonial-profile-block .profile-name-block p {
+    font-family: inherit;
+    font-size: 14px;
+    color: #060606;
+    line-height: 1.1;
+    font-weight: 700;
+}
 
+/* Our Our Clients Section END */
+/* Footer Section START */
+section.footer-section{
+    background-color: #475369;
+    padding: 80px 0;
+}
 
+section.footer-section .content .footer-logo-block{
+    width: 130px;
+}
 
+section.footer-section .content .social-block {
+  margin-top: 40px;   
+}
 
+section.footer-section .content .social-block p{
+    font-family: inherit;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 400;
+}
 
+section.footer-section .content .social-block .social-icons-block {
+    padding: 0;
+    margin-top: 18px;
+}
+section.footer-section .content .social-block .social-icons-block .icon-block{
+    display: inline-block;
+    margin-right: 5px;
+}
 
+section.footer-section .content .social-block .social-icons-block .icon-block a{
+    font-size: 16px;
+    color: #fff;
+    transition: 0.3s;
+}
 
+section.footer-section .content .social-block .social-icons-block .icon-block a:hover{
+    opacity: 0.5;
+}
 
+section.footer-section .content ul li{
+    margin-bottom: 12px;
+}
 
+section.footer-section .content ul li a{
+   font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
 
+section.footer-section .content ul li a:hover{
+    opacity: 0.5;
+}
 
+section.footer-section .content .footer-search-block{
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
 
+section.footer-section .content .footer-search-block input.from-control{
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: none;
+    padding: 10px;
+}
 
+section.footer-section .content .footer-search-block .btn{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
 
+section.footer-section .content .footer-contact-block{
+    margin-top: 30px;
+}
 
+section.footer-section .content .footer-contact-block h4{
+   font-family:  'Teko', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
 
+section.footer-section .content .footer-contact-block a{
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 400;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
 
+section.footer-section .content .footer-contact-block a:hover{
+    opacity: 0.5;
+}
 
-
-
-
-
-/* Clients Logo Section END */
+section.footer-section .copyright-block{
+    font-family: inherit;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 400;
+    text-align: center;
+    border-top: 1px solid #4b6594;
+    padding: 20px 0 0 0;
+    margin-top: 80px; 
+}
+/* Footer Section END */
