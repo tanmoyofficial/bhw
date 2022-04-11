@@ -821,19 +821,13 @@ section.our-clients-section .tesimonials-block {
     margin: 0 auto;
 }
 
-section.our-clients-section .tesimonials-block .testimonials-card {
-    position: relative;
-    border-radius: 5px;
-    background-color: aqua;
-    padding: 50px;
-}
 
 section.our-clients-section .tesimonials-block .testimonial-card {
     width: 90%;
     position: relative;
     border-radius: 5px;
     background-color: #fff;
-    padding: 50px 150px 50px 50px;
+    padding: 120px 150px 50px 50px;
     margin: 0;
     box-shadow: 0px 15px 62px 0px rgba(0, 0, 0, 0.1);
 }
