@@ -594,7 +594,7 @@ section.clients-logos-section .slick-dots li button {
 }
 
 section.clients-logos-section .slick-dots .slick-active {
-    background-color: #e9592f;
+    background-color: #000;
 }
 
 /* Clients Logo Section END */
@@ -817,18 +817,20 @@ section.our-clients-section {
 section.our-clients-section .tesimonials-block {
     position: relative;
     width: 60%;
+    height: 452px;
     background-color: #fff;
     margin: 0 auto;
+    padding: 30px 0;
 }
 
 
 section.our-clients-section .tesimonials-block .testimonial-card {
-    width: 90%;
+    width: 60%;
     position: relative;
     border-radius: 5px;
     background-color: #fff;
     padding: 120px 150px 50px 50px;
-    margin: 0;
+    margin: 0 auto;
     box-shadow: 0px 15px 62px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -857,9 +859,8 @@ section.our-clients-section .tesimonials-block .testimonial-card .stars-block {
 
 section.our-clients-section .tesimonials-block .testimonial-profile-block {
     position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
+    top: 14%;
+    right: 13%;
     display: inline-block;
     text-align: center;
     border-radius: 5px;
@@ -867,23 +868,24 @@ section.our-clients-section .tesimonials-block .testimonial-profile-block {
     box-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.1);
 }
 
-section.our-clients-section .tesimonials-block .testimonial-profile-block .profile-img-block {
+section.our-clients-section .testimonials-all-blocks .tesimonials-block .testimonial-profile-block .profile-img-block {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 
 }
 
 
-section.our-clients-section .tesimonials-block .testimonial-profile-block .profile-img-block img {
+section.our-clients-section .testimonials-all-blocks .tesimonials-block .testimonial-profile-block .profile-img-block img {
     overflow: hidden;
-
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-section.our-clients-section .tesimonials-block .testimonial-profile-block .profile-name-block {
+section.our-clients-section .testimonials-all-blocks .tesimonials-block .testimonial-profile-block .profile-name-block {
     padding: 10px 0;
 }
 
-section.our-clients-section .tesimonials-block .testimonial-profile-block .profile-name-block p {
+section.our-clients-section .testimonials-all-blocks .tesimonials-block .testimonial-profile-block .profile-name-block p {
     font-family: inherit;
     font-size: 14px;
     color: #060606;
@@ -891,22 +893,45 @@ section.our-clients-section .tesimonials-block .testimonial-profile-block .profi
     font-weight: 700;
 }
 
-/* Our Our Clients Section END */
-/* Footer Section START */
-section.footer-section{
-    background-color: #475369;
-    padding: 80px 0;
+ul.slick-dots {
+    display: flex;
+    justify-content: center;
 }
 
-section.footer-section .content .footer-logo-block{
+ul.slick-dots li{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 0 5px;
+}
+
+ul.slick-dots li.slick-active{
+    background-color: #000;
+}
+ul.slick-dots li button{
+    background-color: transparent;
+    border: none;
+    font-size: 0;
+    color: transparent;
+}
+/* Our Our Clients Section END */
+/* Footer Section START */
+section.footer-section {
+    background-color: #475369;
+    padding: 80px 0 20px 0;
+}
+
+section.footer-section .content .footer-logo-block {
     width: 130px;
 }
 
 section.footer-section .content .social-block {
-  margin-top: 40px;   
+    margin-top: 40px;
 }
 
-section.footer-section .content .social-block p{
+section.footer-section .content .social-block p {
     font-family: inherit;
     font-size: 14px;
     color: #fff;
@@ -918,27 +943,28 @@ section.footer-section .content .social-block .social-icons-block {
     padding: 0;
     margin-top: 18px;
 }
-section.footer-section .content .social-block .social-icons-block .icon-block{
+
+section.footer-section .content .social-block .social-icons-block .icon-block {
     display: inline-block;
     margin-right: 5px;
 }
 
-section.footer-section .content .social-block .social-icons-block .icon-block a{
-    font-size: 16px;
+section.footer-section .content .social-block .social-icons-block .icon-block a {
+    font-size: 20px;
     color: #fff;
     transition: 0.3s;
 }
 
-section.footer-section .content .social-block .social-icons-block .icon-block a:hover{
+section.footer-section .content .social-block .social-icons-block .icon-block a:hover {
     opacity: 0.5;
 }
 
-section.footer-section .content ul li{
+section.footer-section .content ul li {
     margin-bottom: 12px;
 }
 
-section.footer-section .content ul li a{
-   font-family: inherit;
+section.footer-section .content ul li a {
+    font-family: inherit;
     font-size: 16px;
     color: #fff;
     line-height: 1.1;
@@ -947,16 +973,16 @@ section.footer-section .content ul li a{
     transition: 0.3s;
 }
 
-section.footer-section .content ul li a:hover{
+section.footer-section .content ul li a:hover {
     opacity: 0.5;
 }
 
-section.footer-section .content .footer-search-block{
+section.footer-section .content .footer-search-block {
     position: relative;
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-section.footer-section .content .footer-search-block input.from-control{
+section.footer-section .content .footer-search-block input.from-control {
     background-color: transparent;
     font-family: inherit;
     font-size: 14px;
@@ -966,9 +992,15 @@ section.footer-section .content .footer-search-block input.from-control{
     text-transform: capitalize;
     border: none;
     padding: 10px;
+    background-color: transparent;
+    outline: none;
 }
 
-section.footer-section .content .footer-search-block .btn{
+section.footer-section .content .footer-search-block input.from-control::placeholder {
+    color: #eee;
+}
+
+section.footer-section .content .footer-search-block .btn {
     position: absolute;
     right: 2%;
     top: 50%;
@@ -976,12 +1008,12 @@ section.footer-section .content .footer-search-block .btn{
     color: #fff;
 }
 
-section.footer-section .content .footer-contact-block{
+section.footer-section .content .footer-contact-block {
     margin-top: 30px;
 }
 
-section.footer-section .content .footer-contact-block h4{
-   font-family:  'Teko', sans-serif;
+section.footer-section .content .footer-contact-block h4 {
+    font-family: 'Teko', sans-serif;
     font-size: 20px;
     color: #fff;
     line-height: 1.1;
@@ -990,7 +1022,7 @@ section.footer-section .content .footer-contact-block h4{
     margin-bottom: 10px;
 }
 
-section.footer-section .content .footer-contact-block a{
+section.footer-section .content .footer-contact-block a {
     background-color: transparent;
     font-family: inherit;
     font-size: 14px;
@@ -1001,11 +1033,11 @@ section.footer-section .content .footer-contact-block a{
     transition: 0.3s;
 }
 
-section.footer-section .content .footer-contact-block a:hover{
+section.footer-section .content .footer-contact-block a:hover {
     opacity: 0.5;
 }
 
-section.footer-section .copyright-block{
+section.footer-section .copyright-block {
     font-family: inherit;
     font-size: 14px;
     color: #fff;
@@ -1014,6 +1046,7 @@ section.footer-section .copyright-block{
     text-align: center;
     border-top: 1px solid #4b6594;
     padding: 20px 0 0 0;
-    margin-top: 80px; 
+    margin-top: 80px;
 }
+
 /* Footer Section END */
